@@ -1,7 +1,4 @@
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GithubIcon from '@mui/icons-material/Github';
+import { FaInstagram, FaTwitter,FaLinkedin,FaGithub } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -14,10 +11,10 @@ const Footer = () => {
 
             <div className="">
             <ul className="flex text-white absolute  gap-2 right-0 cursor-pointer">
-                <li><TwitterIcon className="hover:text-[#1DA1F2] mb-1"/> </li>
-                <li><InstagramIcon className="hover:text-red-300 mb-1"/></li>
-                <li><LinkedInIcon className="hover:text-[#0762C8] mb-1"/></li>
-                <li><GithubIcon className="hover:text-slate-500 mb-1"/> </li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaTwitter /></li>
+                <li className="hover:text-red-300 mb-1 flex items-center gap-1"><FaInstagram/></li>
+                <li className="hover:text-[#0762C8] mb-1 flex items-center gap-1"><FaLinkedin /></li>
+                <li className="hover:text-slate-500 mb-1 flex items-center gap-1"><FaGithub/></li>
             </ul>
             </div>
         </div>

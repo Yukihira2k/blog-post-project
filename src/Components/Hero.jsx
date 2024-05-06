@@ -1,8 +1,6 @@
 import profile from "../assets/profile.jpg"
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GithubIcon from '@mui/icons-material/Github';
+import { FaInstagram, FaTwitter,FaLinkedin,FaGithub } from "react-icons/fa";
+
 
 import { RoughNotation} from "react-rough-notation";
 
@@ -28,11 +26,11 @@ const Hero = () => {
         
 
         <div className="mt-5 ">
-            <ul className="flex flex-wrap items-center   text-[#A8ADB2] gap-5 cursor-pointer ">
-                <li className="hover:text-[#1DA1F2] mb-1"><TwitterIcon className="text-[#1DA1F2] mb-1"/> Twitter</li>
-                <li className="hover:text-[#1DA1F2] mb-1"><InstagramIcon className="text-red-300 mb-1"/> Instagram</li>
-                <li className="hover:text-[#1DA1F2] mb-1"><LinkedInIcon className="text-[#0762C8] mb-1"/> LinkedIn</li>
-                <li className="hover:text-[#1DA1F2] mb-1"><GithubIcon className="text-slate-50 mb-1"/> Github</li>
+            <ul className="flex flex-wrap items-center text-[#A8ADB2] gap-5 cursor-pointer ">
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaTwitter className="text-[#1DA1F2] "/> Twitter</li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaInstagram className="text-red-300 "/> Instagram</li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaLinkedin className="text-[#0762C8] "/> LinkedIn</li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaGithub className="text-slate-50 "/> Github</li>
             </ul>
             
         </div>

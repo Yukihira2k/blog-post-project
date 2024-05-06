@@ -28,7 +28,7 @@ const handleClick = () => {
   return (
     <>
     <NavBar/>
-    <section className="flex justify-center mt-24">
+    <section className="flex justify-center my-24">
     <div className="text-white w-full mx-10  md:mx-0 md:w-[60%] lg:[70%] xl:w-1/3 ">
       <Header header="Hey, I&apos;m Glen 👋🏼"/>
 

@@ -11,7 +11,7 @@ const Hero = () => {
     <div className=" mt-4 w-auto h-auto flex  items-center justify-center m-auto md:ml-[10%]  lg:mt-[5%] ">
         <div className="flex flex-wrap items-center justify-center gap-10 m-10">
         <div>
-        <img src={profile} className="h-[150px] w-full  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full p-[2px] bg-white"/>
+        <img src={profile} className="h-[150px] w-[150px]  bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full p-[2px] bg-white"/>
         </div>
 
         <div className=" flex-col">

@@ -8,6 +8,7 @@ import App from './App.jsx'
 import Blog from "./Components/Pages/Blog.jsx"
 import './index.css'
 import About from './Components/Pages/About.jsx';
+import Manual from "./Components/Pages/Manual.jsx"
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About/>,
+  },
+  {
+    path: "/manual",
+    element: <Manual/>,
   },
 ]);
 

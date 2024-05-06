@@ -58,7 +58,7 @@ const handleClick = () => {
       essential for creating web apps and diving into frameworks on a deeper 
       level. You can visit my <span className={spanTag}>personal portfolio</span> or <span className={spanTag}>Github</span> to see my projects.</p>
 
-      <Header header2="USE MANUAL" />
+      <Header header2="USER MANUAL" />
       <p className={style}>I created a playbook on <span className={spanTag}><Link to="/manual">how to work with me</Link></span>. 
       It captures some of my strengths, weaknesses, and principles that 
       I aim to follow.</p>

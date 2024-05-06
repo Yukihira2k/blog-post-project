@@ -9,18 +9,18 @@ const NavBar = () => {
     const links =[
         {
             id:1,
+            linkName:'Home',
+            link:'/'
+        },
+        {
+            id:2,
             linkName:'About',
             link:'/About'
         },
         {
-            id:2,
+            id:3,
             linkName:'Blog',
             link:'/Blog'
-        },
-        {
-            id:3,
-            linkName:'Newsletter',
-            link:'/Newsletter'
         },
      
     ]

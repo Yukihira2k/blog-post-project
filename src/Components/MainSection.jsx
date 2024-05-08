@@ -1,6 +1,7 @@
 import PostNotes from "./Props/PostNotes.jsx"
 import Notes from "./Notes.js"
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
+import {Link} from 'react-router-dom'
 
 
 
@@ -19,7 +20,7 @@ const MainSection = () => {
               }
             })}
 
-            <h1 className="text-white my-10 cursor-pointer hover:text-blue-400"><a href="/blog">Read more post <TrendingFlatIcon color="white"/></a></h1>
+            <h1 className="text-white my-10 cursor-pointer hover:text-blue-400"><Link to="/blog">Read more post <TrendingFlatIcon color="white"/></Link></h1>
         </div>
 
        

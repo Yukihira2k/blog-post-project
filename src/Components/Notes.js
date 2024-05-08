@@ -2,11 +2,11 @@ const notes = [
     {
         key:1,
         emoji:"🙏",
-        title:"Bringing back the momentum",
-        date:"May 06, 2024",
+        title:"Overcoming the fear of making mistakes",
+        date:"May 09, 2024",
         genre:"Life",
-        message:"In the dance of life, momentum is the rhythm that keeps us moving forward. It's the force that fuels our ambitions, propels us toward our goals, and infuses our actions with purpose. Yet, there are moments when the music fades, and we find ourselves standing still in the silence of inertia. But fear not, for just as a spark can ignite a flame, so too can we reignite the momentum that drives us...",
-        path:"/Bringing-back-the-momentum"
+        message:"Here I am, seated before my computer, weary and restless, wondering what actions should I take for me to be good at expressing my thoughts through writing. I'm fully aware that my vocabularies are limited and this is also my first time writing about my thoughts and...",
+        path:"/Overcoming-the-fear-of-making-mistakes"
     },
 
     

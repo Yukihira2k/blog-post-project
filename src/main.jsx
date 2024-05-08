@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     element: <Manual/>,
   },
   {
-    path: "/Bringing-back-the-momentum",
+    path: "/overcoming-the-fear-of-making-mistakes",
     element: <Momentum/>,
   },
 ]);

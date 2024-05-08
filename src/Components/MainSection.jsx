@@ -19,7 +19,7 @@ const MainSection = () => {
               }
             })}
 
-            <h1 className="text-white my-10 cursor-pointer hover:text-blue-400"><a href="blog">Read more post <TrendingFlatIcon color="white"/></a></h1>
+            <h1 className="text-white my-10 cursor-pointer hover:text-blue-400"><a href="/blog">Read more post <TrendingFlatIcon color="white"/></a></h1>
         </div>
 
        

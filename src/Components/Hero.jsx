@@ -27,10 +27,10 @@ const Hero = () => {
 
         <div className="mt-5 ">
             <ul className="flex flex-wrap items-center text-[#A8ADB2] gap-5 cursor-pointer ">
-                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaTwitter className="text-[#1DA1F2] "/> Twitter</li>
-                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaInstagram className="text-red-300 "/> Instagram</li>
-                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaLinkedin className="text-[#0762C8] "/> LinkedIn</li>
-                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaGithub className="text-slate-50 "/> Github</li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaTwitter className="text-[#1DA1F2] "/><a onClick={()=> window.open("https://twitter.com/glen_mirandilla")}> Twitter </a></li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaInstagram className="text-red-300 "/><a onClick={()=> window.open("https://www.instagram.com/glenmirandilla/")}> Instagram </a></li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaLinkedin className="text-[#0762C8] "/><a onClick={()=> window.open("https://www.linkedin.com/in/glen-mirandilla-ab200a287/")}> LinkedIn </a></li>
+                <li className="hover:text-[#1DA1F2] mb-1 flex items-center gap-1"><FaGithub className="text-slate-50 "/><a onClick={()=> window.open("https://github.com/Yukihira2k")}> Github </a></li>
             </ul>
             
         </div>

@@ -11,10 +11,10 @@ const Footer = () => {
 
             <div className="">
             <ul className="flex text-white   gap-2  cursor-pointer">
-                <li className="hover:text-[#1DA1F2]  flex items-center gap-1"><FaTwitter /></li>
-                <li className="hover:text-red-300  flex items-center gap-1"><FaInstagram/></li>
-                <li className="hover:text-[#0762C8]  flex items-center gap-1"><FaLinkedin /></li>
-                <li className="hover:text-slate-500  flex items-center gap-1"><FaGithub/></li>
+                <li className="hover:text-[#1DA1F2]  flex items-center gap-1"><a onClick={()=>{window.open("https://twitter.com/glen_mirandilla")}}><FaTwitter /></a></li>
+                <li className="hover:text-red-300  flex items-center gap-1"><a onClick={()=>{window.open("https://www.instagram.com/glenmirandilla/")}}><FaInstagram/></a></li>
+                <li className="hover:text-[#0762C8]  flex items-center gap-1"><a onClick={()=>{window.open("https://www.linkedin.com/in/glen-mirandilla-ab200a287/")}}><FaLinkedin /></a></li>
+                <li className="hover:text-slate-500  flex items-center gap-1"><a onClick={()=>{window.open("https://github.com/Yukihira2k")}}><FaGithub/></a></li>
             </ul>
             </div>
         </div>

@@ -9,6 +9,7 @@ import Blog from "./Components/Pages/Blog.jsx"
 import './index.css'
 import About from './Components/Pages/About.jsx';
 import Manual from "./Components/Pages/Manual.jsx"
+import Momentum from "./Components/Pages/Momentum.jsx"
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/manual",
     element: <Manual/>,
+  },
+  {
+    path: "/Bringing-back-the-momentum",
+    element: <Momentum/>,
   },
 ]);
 

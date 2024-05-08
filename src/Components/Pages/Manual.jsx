@@ -1,6 +1,6 @@
 import NavBar from "../NavBar"
 import Header from "../Props/Header"
-
+import Footer from "../Footer"
 
 const style = "mt-2 text-slate-200 text-lg text-justify"
 const spanTag = "text-[#1DA1F2] cursor-pointer"
@@ -105,6 +105,8 @@ const Manual = () => {
 
     </div>
     </section>
+
+    <Footer/>
     </>
   )
 }

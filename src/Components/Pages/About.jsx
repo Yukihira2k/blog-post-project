@@ -1,6 +1,7 @@
 import Header from "../Props/Header"
 import NavBar from "../NavBar"
 import {Link} from 'react-router-dom'
+import Footer from "../Footer"
 
 
 
@@ -13,13 +14,8 @@ const About = () => {
 
   
 const handleClick = () => {
-
   const email = 'glen.mirandilla02@gmail.com';
-
-
   const mailtoLink = `mailto:${email}`;
-
-
   window.location.href = mailtoLink;
 }; 
 
@@ -67,9 +63,9 @@ const handleClick = () => {
     </div>
 
 
-  
-    </section>
  
+    </section>
+    <Footer/>
     </>
   )
 }
